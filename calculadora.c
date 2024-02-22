@@ -32,6 +32,26 @@ int main ()
   }
 }
 
+void suma(){
+ float n1,n2,res;
+      printf ("Introduza el primer numero a sumar: ");
+      scanf ("%f" , &n1);
+      printf ( "Introduza el segundo numero a sumar: ");
+      scanf ("%f" , &n2);
+      res= n1+n2;
+      printf ("La suma es: " ,res);
+}     
+
+void resta (){
+float n1,n2,res;
+     printf ("Introduza el primer numero: ");
+      scanf ("%f" , &n1);
+      printf ( "Introduza el segundo numero a restar: ");
+      scanf ("%f" , &n2);
+      res= n1-n2;
+      printf ("La resta es: %f" , res); 
+ 
+}
 void mult(){
   float n1,n2,res;
   printf("\nIngresa el primer valor: ");
