@@ -1,4 +1,4 @@
-#import <stdio.h>
+#include <stdio.h>
 
 void suma();
 void resta();
@@ -33,13 +33,13 @@ int main ()
 }
 
 void suma(){
- float n1,n2,res;
+    float n1,n2,res;
       printf ("Introduza el primer numero a sumar: ");
       scanf ("%f" , &n1);
       printf ( "Introduza el segundo numero a sumar: ");
       scanf ("%f" , &n2);
       res= n1+n2;
-      printf ("La suma es: " ,res);
+      printf ("La suma es: %f" ,res);
 }     
 
 void resta (){
