@@ -2,9 +2,16 @@
 
 int main ()
 {
+  int selecc=0;
   printf (" CALCULADORA ");
   printf ( " Selecciona una opcion: ");
-  printf ("1. SUMA");
-  printf ("2. RESTA");
-  printf ("3. MULTIPLICACION");
-  printf ("4. DIVISION");
+  scanf("%i",&selecc);
+  printf ("\n1. SUMA");
+  printf ("\n2. RESTA");
+  printf ("\n3. MULTIPLICACION");
+  printf ("\n4. DIVISION");
+
+  switch(selecc){
+  
+  }
+}
