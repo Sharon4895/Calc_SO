@@ -27,7 +27,7 @@ int main ()
       mult();
       break;
     case(4):
-      div();
+      divi();
       break;
   }
 }
@@ -42,7 +42,7 @@ void mult(){
   printf("\nResultado: %f",res);
 }
 
-void div(){
+void divi(){
   float n1,n2,res;
   printf("\nIngresa el primer valor: ");
   scanf("%f",&n1);
