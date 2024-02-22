@@ -12,6 +12,17 @@ int main ()
   printf ("\n4. DIVISION");
 
   switch(selecc){
-  
+    case(1):
+      suma();
+      break;
+    case(2):
+      resta();
+      break;
+    case(3):
+      mult();
+      break;
+    case(4):
+      div();
+      break;
   }
 }
